@@ -1,7 +1,7 @@
 ---
 name: project-copilot
 description: This skill should be used when a project manager or delivery lead pastes meeting minutes, rough notes, a RAID log or a schedule export (CSV/XLSX) and asks "what actually needs my attention", "tidy up the RAID", "write the weekly status", "pull out the actions" or "turn these notes into meeting notes". Covers estate delivery for a wholesale FTTP network. Local only; no project systems.
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Project Copilot

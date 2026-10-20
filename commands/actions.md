@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules. If a PDF or DOCX of minutes is named, apply document-reader and keep page references.
-2. Use the action-recognition rules in `references/raid-method.md` (section "Finding actions in prose"): an action has a verb, an owner and a deliverable. "We should look at X" with no owner is an OPEN QUESTION, not an action, unless the chair assigned it.
+2. Use the action-recognition rules in `${CLAUDE_PLUGIN_ROOT}/skills/project-copilot/references/raid-method.md` (section "Finding actions in prose"): an action has a verb, an owner and a deliverable. "We should look at X" with no owner is an OPEN QUESTION, not an action, unless the chair assigned it.
 3. Produce exactly this template:
 
 ```

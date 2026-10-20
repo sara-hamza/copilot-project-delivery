@@ -10,7 +10,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules. If a spreadsheet is provided, apply the copilot-common spreadsheet-reader skill to profile it first and state which columns were used for milestone, baseline, forecast and % complete.
-2. Read `references/status-report-template.md` for the RAG definitions (CUSTOMISE) and the one-page layout. Use the writing-helper status structure: status word first, three bullets of progress, blockers, asks.
+2. Read `${CLAUDE_PLUGIN_ROOT}/skills/project-copilot/references/status-report-template.md` for the RAG definitions (CUSTOMISE) and the one-page layout. Use the writing-helper status structure: status word first, three bullets of progress, blockers, asks.
 3. Audience from an `audience:` token (default `pmo`). For `steerco`, lead with decisions and asks; for `team`, add the next-week list.
 4. Produce exactly this template:
 

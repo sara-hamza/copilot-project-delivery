@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules. Remove phone numbers and personal remarks that are not needed by the wider readership of the notes.
-2. Use `references/raid-method.md` (section "Finding actions in prose") to separate decisions (something was agreed), actions (owner + deliverable), open questions (asked, not answered) and parking lot (raised, deliberately deferred). Use writing-helper for tone: terse, factual, chronological inside each section.
+2. Use `${CLAUDE_PLUGIN_ROOT}/skills/project-copilot/references/raid-method.md` (section "Finding actions in prose") to separate decisions (something was agreed), actions (owner + deliverable), open questions (asked, not answered) and parking lot (raised, deliberately deferred). Use writing-helper for tone: terse, factual, chronological inside each section.
 3. Produce exactly this template:
 
 ```

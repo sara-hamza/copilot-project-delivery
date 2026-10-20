@@ -11,7 +11,7 @@ $ARGUMENTS
 Steps:
 1. Apply copilot-common privacy rules. If a spreadsheet (CSV/XLSX schedule or RAID export) is provided, apply the copilot-common spreadsheet-reader skill to profile it before reading rows; state which columns were treated as task, owner, due date, status and % complete. If a PDF is provided, apply document-reader and keep page references.
 2. Take the as-of date from an `as-of:` token, else from the input, else today. State the as-of date on the first line.
-3. Rank every item using `references/attention-triage-rules.md` (blocked milestone > overdue dependency > unowned decision > stale item > everything else). Use `references/raid-method.md` to recognise risks, issues and dependencies hiding in prose.
+3. Rank every item using `${CLAUDE_PLUGIN_ROOT}/skills/project-copilot/references/attention-triage-rules.md` (blocked milestone > overdue dependency > unowned decision > stale item > everything else). Use `${CLAUDE_PLUGIN_ROOT}/skills/project-copilot/references/raid-method.md` to recognise risks, issues and dependencies hiding in prose.
 4. Produce exactly this template:
 
 ```
